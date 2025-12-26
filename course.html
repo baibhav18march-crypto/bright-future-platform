@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Content</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #020617;
+      color: #e5e7eb;
+      padding: 2rem;
+    }
+    h1, h2 { color: #38bdf8; }
+    a { color: #38bdf8; margin: 0 1rem; text-decoration: none; }
+    .module { background: #0b1120; padding: 1.5rem; margin: 1rem 0; border-radius: 12px; border: 1px solid rgba(148,163,184,0.3); }
+    .progress-bar { background: #0b1120; height: 8px; border-radius: 999px; margin: 1rem 0; }
+    .progress-fill { background: linear-gradient(90deg, #38bdf8, #0ea5e9); height: 100%; width: 0%; border-radius: 999px; }
+  </style>
+</head>
+<body>
+  <h1>Course A: Introduction to Web Design</h1>
+  <p>Follow each module step by step and track your progress.</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="student.html">Student View</a>
+    <a href="assignment.html">Assignments</a>
+  </nav>
+  <h2>Progress: 0%</h2>
+  <div class="progress-bar"><div class="progress-fill" style="width: 0%"></div></div>
+  <div class="module">
+    <h3>Module 1: HTML Basics</h3>
+    <p>Learn the structure of web pages using HTML.</p>
+    <ul>
+      <li>Basic HTML tags and page structure</li>
+      <li>Headings, paragraphs, links, and images</li>
+      <li>Using lists and simple semantic elements</li>
+    </ul>
+    <button style="background: linear-gradient(135deg, #38bdf8, #0ea5e9); color: #0b1120; border: none; padding: 0.5rem 1rem; border-radius: 999px; cursor: pointer; margin-top: 1rem;">Start module</button>
+  </div>
+  <div class="module">
+    <h3>Module 2: CSS Styling</h3>
+    <p>Style your pages with CSS.</p>
+    <ul>
+      <li>How to link CSS to HTML</li>
+      <li>Colors, fonts, and spacing</li>
+      <li>Simple layout with Flexbox</li>
+    </ul>
+    <button style="background: rgba(15,23,42,0.95); color: #e5e7eb; border: 1px solid rgba(148,163,184,0.7); padding: 0.5rem 1rem; border-radius: 999px; cursor: pointer; margin-top: 1rem;">Start module</button>
+  </div>
+</body>
+</html>
