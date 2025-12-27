@@ -354,7 +354,7 @@
       </p>
       <div class="hero-actions">
         <button class="btn btn-primary" onclick="goToLogin()">Get started · Login</button>
-        <button class="btn btn-ghost" onclick="scrollToInfo()">Explore features</button>
+        <button class="btn btn-ghost" onclick="goToFeatures()">Explore features</button>
       </div>
     </div>
 
@@ -391,6 +391,10 @@
     function goToLogin() {
       window.location.href = "./login.html";
     }
+
+      function goToFeatures() {
+    window.location.href = "./features.html";
+  }
     function scrollToInfo() {
       const about = document.getElementById("about");
       if (about) {
